@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.possible-letter {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.sameIndex {
+    background-color: green;
+    color: white;
+}
+
+.letterExists {
+    background-color: orange;
+    color: white;
+}
+
+.used {
+    background-color: grey;
+    color: white;
+}
+
+hr {
+    width: 50%;
+    background-color: grey;
+}
+
+.key {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.fit-content {
+    padding: 16px 19px 16px 19px;
+}

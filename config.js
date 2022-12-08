@@ -1,9 +1,20 @@
+const greekKeys = [
+    ['Α', 'Β', 'Γ', 'Δ', 'Ε', 'Ζ', 'Η', 'Θ'],
+    ['Ι', 'Κ', 'Λ', 'Μ', 'Ν', 'Ξ', 'Ο', 'Π', 'Backspace'],
+    ['Ρ', 'Σ', 'Τ', 'Υ', 'Φ', 'Χ', 'Ψ', 'Ω', 'ENTER']
+]
+
 const words = [
     'ΣΧΗΜΑ',
     'ΠΕΤΡΑ',
     'ΠΟΡΤΑ',
     'ΛΑΘΟΣ',
-    'ΚΗΤΟΣ'
+    'ΚΗΤΟΣ',
+    'ΠΑΘΟΣ',
+    'ΑΓΑΠΗ',
+    'ΒΑΘΟΣ',
+    'ΠΕΝΤΕ',
+    'ΝΙΚΟΣ'
 ]
 
 let lastUsedWordIdx = -1
@@ -17,3 +28,5 @@ const random = (min, max) => {
     lastUsedWordIdx = num
     return num
 }
+
+let selectedWord = words[lastUsedWordIdx]
